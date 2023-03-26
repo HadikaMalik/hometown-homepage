@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #2b2d42;
+    background: #edf2f4;
+}
+
+h1,h2,h3,p {
+    text-shadow: 0px 0px 1px #ef233c;
+}
+
+.header{ 
+    background-image: url("images/main\ header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding: 70px 50px;
+    margin-bottom: 70px;
+}
+
+.btn{
+    background: #caf0f8;
+    border-radius: 30px;
+    border-color: #8d99ae;
+    font-family: 'Lora', serif;
+    color: #2b2d42;
+    text-shadow: 0px 0px 1px #ef233c;
+    font-size: 40; 
+    font-weight: bold;
+}
+
+.opera,.danube,.prater,.schonbrunn,.stephansdom{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#opera,#danube,#prater,#schonbrunn,#stephansdom{
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 20px 20px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.footer {
+    margin: 70px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #caf0f8;
+    color: #2b2d42;
+    text-shadow: 0px 0px 1px #ef233c;
+    border: 2px solid #8d99ae;
+    border-radius: 50px;
+}
